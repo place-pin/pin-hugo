@@ -12,7 +12,7 @@ paginate = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -63,7 +63,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Hello World"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -77,11 +77,15 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Hello World"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "about"
         url = "/about"
