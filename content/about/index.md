@@ -6,4 +6,4 @@ draft: false
 
 An experiment on deplying Hugo to Cloudflare Pages. 
 
-- [X] update from an Ipad in a shop 
+- [X] update from an Ipad in a coffee shop 
